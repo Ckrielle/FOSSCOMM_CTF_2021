@@ -27,7 +27,7 @@
 
 **I don't have Linux, should I install Kali**: If you are new, Kali is good, so yeah I recommend it
 
-**I'm completely new, wat do**: [This](https://play.picoctf.org/) is a good place to start
+**I'm completely new, wat do**: [This](https://primer.picoctf.com/) is a good place to start
 
 **I don't have a linux environment**: Use the PWN box if you need one, though I recommend having your own
 
