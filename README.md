@@ -27,6 +27,8 @@
 
 **I'm completely new, wat do**: [This](https://play.picoctf.org/) is a good place to start
 
+**I don't have a linux environment**: Use the PWN box if you need one, though I recommend having your own
+
 **Who gets the prizes**: The top 5
 
 **How wil you contact the top 5**: We ask for your email in the google form. So expect from us to contact you after the results are posted
