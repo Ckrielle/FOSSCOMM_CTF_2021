@@ -13,6 +13,8 @@
 
 
 ## FAQ
+**What's the flag format**: FOSSCOMM{3x4Mpl3_Fl4g}
+
 **When and where will the rankings be announced**: The rankings will be posted both on the [fosscomm2021](https://2021.fosscomm.gr/) and the [CSC@UOM](https://csc.uom.gr/) website. They will be announced 1-2 days after the end of the conference.
 
 **Will the solutions also be posted**: Yes
