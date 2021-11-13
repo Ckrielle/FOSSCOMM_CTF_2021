@@ -1,0 +1,66 @@
+encrypted flag: 8Y732}FPQV?TGTs>kN\l#DOH6FKX{CT*R?
+Good Luck!
+
+
+  2           0 LOAD_CONST               1 ('')
+              2 STORE_FAST               1 (ct)
+
+  3           4 LOAD_FAST                0 (message)
+              6 LOAD_CONST               2 (-6)
+              8 LOAD_CONST               0 (None)
+             10 BUILD_SLICE              2
+             12 BINARY_SUBSCR
+             14 GET_ITER
+        >>   16 FOR_ITER                12 (to 30)
+             18 STORE_FAST               2 (i)
+
+  4          20 LOAD_FAST                1 (ct)
+             22 LOAD_FAST                2 (i)
+             24 INPLACE_ADD
+             26 STORE_FAST               1 (ct)
+             28 JUMP_ABSOLUTE           16
+
+  5     >>   30 LOAD_GLOBAL              0 (enumerate)
+             32 LOAD_FAST                0 (message)
+             34 LOAD_CONST               0 (None)
+             36 LOAD_CONST               3 (33)
+             38 BUILD_SLICE              2
+             40 BINARY_SUBSCR
+             42 CALL_FUNCTION            1
+             44 GET_ITER
+        >>   46 FOR_ITER                58 (to 106)
+             48 UNPACK_SEQUENCE          2
+             50 STORE_FAST               3 (index)
+             52 STORE_FAST               4 (char)
+
+  6          54 LOAD_FAST                3 (index)
+             56 LOAD_CONST               4 (2)
+             58 BINARY_MODULO
+             60 POP_JUMP_IF_FALSE       84
+
+  7          62 LOAD_FAST                1 (ct)
+             64 LOAD_GLOBAL              1 (chr)
+             66 LOAD_GLOBAL              2 (ord)
+             68 LOAD_FAST                4 (char)
+             70 CALL_FUNCTION            1
+             72 LOAD_FAST                3 (index)
+             74 BINARY_ADD
+             76 CALL_FUNCTION            1
+             78 INPLACE_ADD
+             80 STORE_FAST               1 (ct)
+             82 JUMP_ABSOLUTE           46
+
+  9     >>   84 LOAD_FAST                1 (ct)
+             86 LOAD_GLOBAL              1 (chr)
+             88 LOAD_GLOBAL              2 (ord)
+             90 LOAD_FAST                4 (char)
+             92 CALL_FUNCTION            1
+             94 LOAD_FAST                3 (index)
+             96 BINARY_SUBTRACT
+             98 CALL_FUNCTION            1
+            100 INPLACE_ADD
+            102 STORE_FAST               1 (ct)
+            104 JUMP_ABSOLUTE           46
+
+ 10     >>  106 LOAD_FAST                1 (ct)
+            108 RETURN_VALUE
