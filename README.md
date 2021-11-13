@@ -8,9 +8,10 @@
 
 
 ## General Info
-** Purpose **: This CTF is a collaboration between the FOSSCOMM conference and the CSC@UOM team. It aims to give a fun activity while the convention is running, and to help some people learn some things about security. Even though some challenges are flagged as medium or hard, this is a beginner friendly CTF
+**Purpose**: This CTF is a collaboration between the FOSSCOMM conference and the CSC@UOM team. It aims to give a fun activity while the convention is running, and to help some people learn some things about security. Even though some challenges are flagged as medium or hard, this is a beginner friendly CTF
 
 
+**Updates**: Even if you cline the repo, check it to get updates regularly
 
 ## FAQ
 **What's the flag format**: FOSSCOMM{3x4Mpl3_Fl4g}
